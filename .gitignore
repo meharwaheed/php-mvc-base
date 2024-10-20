@@ -1,0 +1,46 @@
+# Ignore Composer dependencies
+/vendor/
+vendor
+
+# Ignore environment configuration
+.env
+.env.local
+.env.*.local
+
+# Ignore the PHP session files
+/session/
+
+# Ignore compiled files
+*.php~
+
+# Ignore logs
+/logs/
+*.log
+
+# Ignore cache files
+/cache/
+*.cache
+
+# Ignore temporary files
+/tmp/
+*.tmp
+.idea
+# Ignore IDE files
+/.idea/
+/*.sublime-project
+/*.sublime-workspace
+/.vscode/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Ignore test coverage reports
+coverage/
+*.coverage
+
+# Ignore PHPUnit result files
+*.xml
+*.json
+*.phpunit.result.xml
